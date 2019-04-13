@@ -31,3 +31,149 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.hlavicka {
+    padding-left: 0;
+    margin: 0; 
+}
+.zalozky {
+    padding: 0;
+    margin: 0;
+}
+
+.zalozky li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.zalozky a {
+    display: inline-block;
+    text-decoration: none;    
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 12px;
+    margin: 0;
+    width: 160px;
+}
+
+.zalozky a:hover, .zalozky a:focus {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.banner {
+    background-image: url(images/pozadi.jpg);
+    background-position: top;
+    background-size: 960px;
+    padding-left: 40px;
+    margin: 0;
+    height: 450px;
+    position: relative;
+}
+
+.nadpis {
+    color: white;
+    font-size: 88px;
+    font-weight: normal;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.slogan {
+    color: #e5e5e5;
+    font-size: 35px;
+    font-weight: lighter;
+    padding-right: 550px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.tlacitka a {
+    display: inline-block;
+    text-decoration: none;    
+    text-align: center;
+    color: #e5e5e5;
+    font-size: 18px;
+    font-weight: normal;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 16px 32px;
+    margin: 0;
+    box-shadow: 1px 1px 1px #25133d;
+}
+
+.tlacitka {
+    position: absolute;
+    left: 40px;
+    bottom: 55px;
+    padding: 0;
+    margin: 0;
+}
+
+.tlacitka li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.tlacitka a:hover, .tlacitka a:focus {
+    background-color: #48418e;
+}
+
+.telefon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.kontejner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.polozka {
+    text-align: center;
+    width: 33.333%;
+    padding: 40px;
+    margin: 0;
+}
+
+.obrazek {
+    width: 25%;
+    text-align: center;
+}
+
+.nazev {
+    color: #48418e;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.popis {
+    font-size: 16px;
+    font-weight: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.paticka {
+    text-align: center;
+    background-color: #48418e;
+    color: #e5e5e5;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+  
